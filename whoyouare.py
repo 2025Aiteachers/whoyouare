@@ -326,10 +326,6 @@ def main():
         }
 
         st.info(explanations.get(final_result, "결과 설명이 없습니다."))
-        # 다시하기 버튼 추가
-if st.button("다시하기"):
-   st.session_state.clear()
-   st.experimental_rerun()
 
 if __name__ == "__main__":
     main()
